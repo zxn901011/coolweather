@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 /**
  * Created by zxn on 2017-3-17.
  */
-public class ForeCast {
+public class Forecast {
     public String date;
 
     @SerializedName("tmp")
@@ -23,5 +23,4 @@ public class ForeCast {
         @SerializedName("txt_d")
         public String info;
     }
-
 }
